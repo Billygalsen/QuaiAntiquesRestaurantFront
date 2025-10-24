@@ -12003,6 +12003,7 @@ p {
 
 .hero-scene {
   position: relative;
+  margin-bottom: 15px;
 }
 .hero-scene::before {
   content: "";
@@ -12042,11 +12043,27 @@ p {
 .image-card img {
   transition: all 0.3s;
 }
-.image-card .titre-image {
+.image-card .titre-image,
+.image-card .action-image-buttons {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+.image-card .action-image-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */
